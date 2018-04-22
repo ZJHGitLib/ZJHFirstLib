@@ -17,17 +17,16 @@ Pod::Spec.new do |s|
 
   s.name         = "ZJHFirstLib"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ZJHFirstLib."
+  s.summary      = "ZJHFirstLib."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "ZJHFirstLib.++++++"
 
-  s.homepage     = "http://EXAMPLE/ZJHFirstLib"
+  s.homepage     = "https://github.com/ZJHGitLib/ZJHFirstLib"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,10 +51,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Jing Hui Zhang" => "zhhjin@cn.ibm.com" }
-  # Or just: s.author    = "Jing Hui Zhang"
-  # s.authors            = { "Jing Hui Zhang" => "zhhjin@cn.ibm.com" }
-  # s.social_media_url   = "http://twitter.com/Jing Hui Zhang"
+  s.author             = { "Jinhui" => "zjh_git_lib@163.com" }
+  # Or just: s.author    = "Jinhui"
+  # s.authors            = { "Jinhui" => "zjh_git_lib@163.com" }
+  # s.social_media_url   = "http://twitter.com/Jinhui"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -79,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/ZJHFirstLib.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ZJHGitLib/ZJHFirstLib.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  #  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
